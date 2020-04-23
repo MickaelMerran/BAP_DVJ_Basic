@@ -3,9 +3,24 @@ body{
     padding: 0;
 }
 
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.menu{
+    height: 600px;
+    width: 100px;
+    border: 10px;
+    background-color: red;
+}
+
+
 ul{
     list-style-type:none;
 }
+
 .text{
     text-decoration: none;
     color: black;
@@ -15,4 +30,8 @@ ul{
 
 .rs{
     padding-top: 100px;
+}
+
+.titre{
+    float: right;
 }
