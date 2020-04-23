@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type:none;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    writing-mode: vertical-lr;
+    padding-top: 20px;
+}
+
+.rs{
+    padding-top: 100px;
+}
