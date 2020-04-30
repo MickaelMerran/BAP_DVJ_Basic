@@ -31,6 +31,7 @@ ul{
     color: white;
     writing-mode: vertical-lr;
     padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .icone{
@@ -61,4 +62,5 @@ ul{
     height: 100vh;
     font-size: 50px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
