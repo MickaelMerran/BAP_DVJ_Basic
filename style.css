@@ -33,6 +33,13 @@ ul{
     padding-top: 20px;
 }
 
+.icone{
+    text-decoration: none;
+    color: white;
+    writing-mode: vertical-lr;
+    padding-top: 20px;
+}
+
 .text:hover{
     box-shadow: inset 0 0 0 1px white;
 }
