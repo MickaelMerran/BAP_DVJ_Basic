@@ -44,6 +44,12 @@ ul{
     box-shadow: inset 0 0 0 1px white;
 }
 
+.icone:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
 .rs{
     padding-top: 50px;
 }
