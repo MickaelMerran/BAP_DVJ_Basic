@@ -65,18 +65,26 @@ ul{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-svg:hover g{
-    opacity: 0;
-}
 
-svg g#Orange{
+svg:hover g#Bleu{
     opacity: 1;
 }
 
-svg{
-    height: 50%;
-    width: 50%;
+svg g#Orange{
+    opacity: 0.1;
 }
 
+svg g#Bleu{
+    opacity: 0.1;
+}
 
+svg g#Red{
+    opacity: 0.1;
+}
 
+svg{
+    position: absolute;
+    left: 25%;
+    height: 50%;
+    width: 50%;    
+}
