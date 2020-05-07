@@ -88,23 +88,40 @@ svg{
     width: 65%;    
 }
 
-.st0{
-    fill:#EE8008;
+.cls-1,.cls-3{
+    fill:#ee8008;
 }
 
-.anneau1:hover{
-    fill: white;
+.cls-2,.cls-5,.cls-8{
+    fill:none;
+    stroke-miterlimit:10;
+    stroke-width:2px;
 }
 
-.anneau2:hover{
-    fill:black;
+.cls-2{
+    stroke:#ee8008;
 }
 
-.st1{
-    fill:#CD1152;
+.cls-3,.cls-6,.cls-9{
+    font-size:60px;
+    font-family:BMWHelvetica-Light, 
+    "BMW Helvetica 45 Light";
+    font-weight:300;
 }
 
-.st2{
-    fill:#0695B7;
+.cls-4,.cls-6{
+    fill:#cd1152;
+}
+
+.cls-5{
+    stroke:#cd1152;
+}
+
+.cls-7,.cls-9{
+    fill:#0695b7;
+}
+
+.cls-8{
+    stroke:#0695b7;
 }
     
