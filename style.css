@@ -1,3 +1,5 @@
+/*------------------------ PAGE ACCUEIL -----------------------*/
+
 body{
     margin: 0;
     padding: 0;
@@ -85,13 +87,19 @@ svg{
     position: absolute;
     left: 20vw;
     top: -10vh;
-    height: 65%;
+    height: 57%;
     width: 65%;    
 }
 
-.cls-1,.cls-3{
+.cls-1{
     fill:#ee8008;
 }
+
+.cls-1-1{
+    fill: #ee8008;
+    opacity: 0.3;
+}
+
 
 .cls-2,.cls-5,.cls-8{
     fill:none;
@@ -99,13 +107,7 @@ svg{
     stroke-width:2px;
 }
 
-.cls-2:hover{
-    stroke: #ee8008;
-}
 
-.cls-g1:hover{
-    fill: #ee8008;
-}
 
 .cls-2{
     stroke: white;
@@ -139,3 +141,56 @@ svg{
     stroke:#0695b7;
 }
     
+#Orange:hover .cls-1, #Orange:hover .cls-2, #Orange:hover .cls-1-1{
+    fill: #ee8008;
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
+.cls-4, .cls-6{
+    fill: white;
+}
+
+.cls-5{
+    stroke: white;
+}
+
+.cls-4-1{
+    fill: #cd1152;
+    opacity: 0.3;
+}
+
+#Red:hover .cls-4, #Red:hover .cls-5, #Red:hover .cls-4-1{
+    fill : #cd1152;
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+.cls-7, .cls-9{
+    fill: white;
+}
+
+.cls-8{
+    stroke: white;
+}
+
+.cls-7-1{
+    fill: #0695b7;
+    opacity: 0.3;
+}
+
+#Bleu:hover .cls-7, #Bleu:hover .cls-8, #Bleu:hover .cls-7-1{
+    fill : #0695b7;
+    opacity: 1;
+    transition: 1s;
+}
+
