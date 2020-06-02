@@ -169,12 +169,6 @@ svg{
 }
 
 
-
-
-
-
-
-
 .cls-7, .cls-9{
     fill: white;
 }
@@ -194,3 +188,15 @@ svg{
     transition: 1s;
 }
 
+.href{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family:BMWHelvetica-Light, 
+    "BMW Helvetica 45 Light";
+    text-decoration: none;
+    font-weight:300;
+    top: 38vh;
+    left: 75vw;
+}
