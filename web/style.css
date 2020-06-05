@@ -71,10 +71,11 @@ ul{
     
   }
   
-  .slick-slide {
+  .slick-slide{
     width:500px !important;
     height:300px !important;
-    background:rgb(18, 185, 214);
+    background-image: url(../img/imgproj.jpg);
+    background-size: cover;
     margin:100px 200px;
     box-shadow: -5px 5px 10px rgb(0, 0, 0);
   }
@@ -83,6 +84,10 @@ ul{
     transition:1s;
     transform:scale(1.2); /* zoom de l'image active */
   }
+/* 
+  .slick-center {
+
+  } */
 
   .project-block{
       font-size: 45px;
@@ -121,3 +126,14 @@ ul{
     opacity: 0;
   }
 
+  .slider__counter {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 1;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    mix-blend-mode: difference;
+    pointer-events: none;
+  }
