@@ -12,7 +12,7 @@
     "Titre": {
       "type": "string"
     },
-    "Photo": {
+    "PhotoOne": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -28,6 +28,28 @@
     },
     "URL_projet": {
       "type": "string"
+    },
+    "PhotoTwo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "PhotoThree": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
