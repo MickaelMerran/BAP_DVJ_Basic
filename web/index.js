@@ -1,5 +1,6 @@
 const slider = $("#project-slider");
 
+
 slider
 .slick({
 arrows:false,
@@ -23,3 +24,5 @@ slider.on('DOMMouseScroll mousewheel whee', (function(e) {
     $(this).slick('slickNext');
   }
 }));
+
+const swup = new Swup();
