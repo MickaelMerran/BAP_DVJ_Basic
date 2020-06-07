@@ -8,6 +8,11 @@ body{
     background-color: #122031;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .menu{
     z-index: 10;
     display: flex;
@@ -70,7 +75,8 @@ ul{
   .slick-slide {
     width:500px !important;
     height:300px !important;
-    background:rgb(18, 185, 214);
+    background-image: url(../img/imgproj.jpg);
+    background-size: cover;
     margin:100px 200px;
     box-shadow: -5px 5px 10px rgb(0, 0, 0);
   }
