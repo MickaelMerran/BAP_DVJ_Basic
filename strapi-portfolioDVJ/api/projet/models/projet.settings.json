@@ -50,6 +50,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Category": {
+      "type": "string"
     }
   }
 }
